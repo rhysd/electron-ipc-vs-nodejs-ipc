@@ -24,7 +24,7 @@ I want to know which one is better.
 ## How to Test
 
 1. **Large Objects** Send 98 tweets full JSON from sender to receiver and receiver will return the ACK.  Measure each spent time.  Send them in serial.
-2. **Small Objects** Send 98 tweets screen name from sender to receiver and receiver will return the ACK.  Get each spent time.  Send them in serial.
+2. **Small Objects** Send 98 tweets ids from sender to receiver and receiver will return the ACK.  Get each spent time.  Send them in serial.
 
 Measure 10 times per each case.
 
